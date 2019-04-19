@@ -1,0 +1,50 @@
+body {
+    background-color: Gainsboro;
+}
+
+h1 {
+    color: GoldenRod;
+    text-align: center;
+}
+h3 {
+	color: GoldenRod;
+	text-align: center;
+}
+h5 {
+	color: GoldenRod;
+	text-align: center;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+	text-align: center;
+}
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;	
+}
+li.menu{
+	  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  }
+li.menu:hover {
+  background-color: #111;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #696969;
+}
