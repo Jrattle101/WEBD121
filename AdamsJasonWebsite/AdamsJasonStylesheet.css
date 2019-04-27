@@ -48,3 +48,17 @@ ul {
   overflow: hidden;
   background-color: #696969;
 }
+table {
+	width: 65%;
+	border-collapse: collapse;
+	background-color: #808080;
+
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: center;
+}
