@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Form">
+  <meta name="keywords" content="Drill Sergeant Program, Form">
+  <meta name="author" content="Jason Adams">
+<link rel="stylesheet" type="text/css" href="AdamsJasonStylesheet.css">
+<title>Table Page</title>
+</head>
+<body>
+<ul>
+  <li class="menu"><a href="AdamsJasonHomePage.html">Home</a></li>
+  <li class="menu"><a href="about.html">About</a></li>
+  <li class="menu"><a href="table.html">DSL</a></li>
+  <li class="menu"><a class="active" href="form.html">Form</a></li>
+</ul> 
+
+<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" target="_blank">
+
+<fieldset>
+
+<legend>Contact info:</legend> 
+Name:<br>
+<input type="text" name="name"><br>
+Email:<br>
+<input type="text" name="email"><br>
+Phone:<br>
+<input type="text" name="phone"><br>
+
+</fieldset>
+
+<fieldset>
+<legend>Rank:</legend> 
+<input type="radio" name="rank" value="SGT">E-5<br>
+<input type="radio" name="rank" value="SSG">E-6<br>
+<input type="radio" name="rank" value="SFC">E-7<br>
+</fieldset>
+
+<fieldset>
+
+<legend>What Company are you in?</legend>
+<select name="company">
+   <option value="a co">A Co</option>
+   <option value="b co">B Co</option>
+   <option value="c co">C Co</option>
+   
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Best way to contact you:</legend> 
+<input type="checkbox" name="contact" value="email">Email<br>
+<input type="checkbox" name="contact" value="phone call">Phone Call<br>
+<input type="checkbox" name="contact" value="text">Text<br>
+
+</fieldset>
+
+<fieldset>
+
+<legend>What time of day?</legend> 
+<select name="time" multiple>
+   <option value="morning">Morning</option>
+   <option value="afternoon">Afternoon</option>
+   <option value="evening">Evening</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Additional Information:</legend> 
+<textarea name="comments" rows="12" cols="40">
+Tell us about yourself...
+</textarea>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Submit Your Form:</legend> 
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
+</form>
+</body>
