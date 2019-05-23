@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
+<meta name="description" content="Contact Form">
+<meta name="keywords" content="Software Development, Contact">
+<meta name="author" content="Jason Adams">
 
 <link rel="stylesheet" type="text/css" href="AdamsJasonStyleSheet.css">
 
@@ -17,7 +17,86 @@
   <li class="menu"><a class="active" href="Subscribe.html">Contact</a></li>
   <li class="menu"><a href="About.html">About</a></li>
 </ul> 
-Content of the document......
+<h1>More Information</h1>
+
+
+<h5>Please sign up to get more information</h5>
+<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" onsubmit="myFunction()" target="_blank">
+
+<fieldset>
+
+<legend>Contact info:</legend> 
+Name:<br>
+<input type="text" name="name"><br>
+Email:<br>
+<input type="text" name="email"><br>
+
+</fieldset>
+
+<fieldset>
+
+<legend>What Type of Development are You Interested in?</legend>
+<select name="interest">
+   <option value="web">Web Development</option>
+   <option value="app">Application Development</option>
+   <option value="mobile">Mobile Development</option>
+   
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Are You Currently a Developer:</legend> 
+<input type="checkbox" name="current dev" value="yes">Yes<br>
+<input type="checkbox" name="current dev" value="no">No<br>
+
+</fieldset>
+
+
+<fieldset>
+<legend>What is Your Expereince Level?:</legend> 
+<input type="radio" name="exp" value="Entry-level">Entry-level<br>
+<input type="radio" name="exp" value="Mid-level">Mid-level<br>
+<input type="radio" name="exp" value="Senior">Senior<br>
+</fieldset>
+
+<fieldset>
+
+<legend>What do you want to know?</legend> 
+<select name="what" multiple>
+   <option value="job">How to get a job</option>
+   <option value="degree">What Degree to get</option>
+   <option value="cert">What Certifications to get</option>
+   <option value="other">Something Else</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>What Programming Languages are you Interested in?:</legend> 
+<textarea name="languages" rows="12" cols="40">
+i.e. C#, Python...
+</textarea>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Submit:</legend> 
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
+</form>
+
+<script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
 </body>
 
 </html>

@@ -1,45 +1,20 @@
 body {
-    background-color: Gainsboro;
+    background-color: black;
 }
 
 h1 {
-    color: GoldenRod;
+    color: lime;
     text-align: center;
 }
-h3 {
-	color: GoldenRod;
-	text-align: center;
-}
 h5 {
-	color: GoldenRod;
+	color: lime;
 	text-align: center;
 }
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
 	text-align: center;
-}
-span.boldtext {
-    font-weight: bold;
-}
-
-span.italictext {
-    font-style: italic;
-}
-li {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 18px;	
-}
-li.menu{
-	  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-  }
-li.menu:hover {
-  background-color: #111;
+	color: green;
 }
 ul {
   list-style-type: none;
@@ -52,13 +27,51 @@ table {
 	width: 65%;
 	border-collapse: collapse;
 	background-color: #808080;
-
 }
 table, th, td {
   border: 1px solid black;
+  text-align: center;
 }
 th, td {
   padding: 10px;
   text-align: center;
   vertical-align: center;
+  color: lime;
+}
+caption {
+	color: lime;
+	text-align: center;
+}
+span.boldtext {
+    font-weight: bold;
+}
+span.italictext {
+    font-style: italic;
+}
+li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;	
+}
+li.menu{
+	  display: block;
+  color: lime;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  }
+li.menu:hover {
+  background-color: #111;
+}
+legend {
+	color: lime;
+}
+fieldset { 
+  display: block;
+  width: 50%;
+  margin-left: 1px;
+  margin-right: 1px;
+  border: 2px groove;
+  color: lime;
+  margin: auto;
 }
